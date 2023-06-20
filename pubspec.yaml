@@ -1,0 +1,67 @@
+name: izam_login
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: any
+  device_preview: any
+  fluttertoast: any
+  sqflite: any
+  path_provider: any
+  path: any
+  get_it: any
+  dartz: any
+  flutter_bloc: any
+  equatable: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/2x/
+    - assets/images/3x/
+  fonts:
+     - family: Gilroy
+       fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+        - asset: assets/fonts/Gilroy-Light.otf
+        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Gilroy-ExtraBold.ttf
+        - asset: assets/fonts/Gilroy-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Gilroy-Black.ttf
+        - asset: assets/fonts/Gilroy-Heavy.ttf
+        - asset: assets/fonts/Gilroy-BlackItalic.ttf
+        - asset: assets/fonts/Gilroy-HeavyItalic.ttf
+        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Gilroy-BoldItalic.ttf
+        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy-RegularItalic.ttf
+        - asset: assets/fonts/Gilroy-Thin.ttf
+        - asset: assets/fonts/Gilroy-ThinItalic.ttf
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+        - asset: assets/fonts/Gilroy-SemiBoldItalic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
